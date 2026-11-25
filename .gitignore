@@ -1,0 +1,78 @@
+# =====================================================================
+# Miscellaneous
+# =====================================================================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =====================================================================
+# Flutter / Dart / Pub related
+# =====================================================================
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Generated code (uncomment if generated sources are not committed)
+# *.g.dart
+# *.freezed.dart
+# *.mocks.dart
+# *.gr.dart
+
+# =====================================================================
+# FVM Version Cache (.fvmrc MUST stay under version control)
+# =====================================================================
+.fvm/
+
+# =====================================================================
+# IDE / Editor related
+# =====================================================================
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configurations and tasks you configure
+# in VS Code which you may wish to be included in version control, so this
+# line is commented out by default.
+#.vscode/
+
+# =====================================================================
+# Secrets / environment files
+# =====================================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.mobileprovision
